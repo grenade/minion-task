@@ -75,7 +75,7 @@
     },
     {
       "name": "SRCSRV_ROOT",
-      "value": "https://hg.mozilla.org/try"
+      "value": "http://hg.mozilla.org/try"
     },
     {
       "name": "VCINSTALLDIR",
