@@ -1,0 +1,220 @@
+{
+  "environment":
+  [
+    {
+      "name": "GECKO_HEAD_REV",
+      "value": "a14283391eab25c83976735e057728aeb6fb8457"
+    },
+    {
+      "name": "WORKSPACE",
+      "value": "%cd%"
+    },
+    {
+      "name": "NO_CACHE",
+      "value": "1"
+    },
+    {
+      "name": "MOZHARNESS_ACTIONS",
+      "value": "get-secrets build check-test generate-build-stats update"
+    },
+    {
+      "name": "MACHTYPE",
+      "value": "i686-pc-msys"
+    },
+    {
+      "name": "MAKE_MODE",
+      "value": "unix"
+    },
+    {
+      "name": "MSYSTEM",
+      "value": "MINGW32"
+    },
+    {
+      "name": "TOOLTOOL_CACHE",
+      "value": "c:\\home\\worker\\tooltool-cache"
+    },
+    {
+      "name": "UPLOAD_HOST",
+      "value": "localhost"
+    },
+    {
+      "name": "UPLOAD_PATH",
+      "value": "c:\\home\\worker\\public\\build"
+    },
+    {
+      "name": "PATH",
+      "value": "%PATH:C:=c:%"
+    },
+    {
+      "name": "DISTUTILS_USE_SDK",
+      "value": "1"
+    },
+    {
+      "name": "MSSdk",
+      "value": "1"
+    },
+    {
+      "name": "MOZ_CRASHREPORTER_NO_REPORT",
+      "value": "1"
+    },
+    {
+      "name": "MOZ_OBJDIR",
+      "value": "obj-firefox"
+    },
+    {
+      "name": "TINDERBOX_OUTPUT",
+      "value": "1"
+    },
+    {
+      "name": "LIBPATH",
+      "value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
+    },
+    {
+      "name": "LIBRARY_PATH",
+      "value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64"
+    },
+    {
+      "name": "SRCSRV_ROOT",
+      "value": "https://hg.mozilla.org/try"
+    },
+    {
+      "name": "VCINSTALLDIR",
+      "value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
+    }
+  ],
+  "commands": [
+    {
+      "file": "cmd",
+      "arguments":
+      [
+        "/c",
+        "if",
+        "exist",
+        "%WORKSPACE%\\build",
+        "rmdir",
+        "%WORKSPACE%\\build",
+        "/s",
+        "/q"
+      ]
+    },
+    {
+      "file": "cmd",
+      "arguments":
+      [
+        "/c",
+        "mkdir",
+        "%WORKSPACE%\\build\\tools"
+      ]
+    },
+    {
+      "file": "hg",
+      "arguments": [
+        "clone",
+        "-U",
+        "c:\\builds\\hg-shared\\build\\tools",
+        "%WORKSPACE%\\build\\tools"
+      ]
+    },
+    {
+      "file": "hg",
+      "arguments":
+      [
+        "pull",
+        "-u",
+        "-R",
+        "%WORKSPACE%\\build\\tools",
+        "--rev",
+        "default",
+        "https://hg.mozilla.org/build/tools"
+      ]
+    },
+    {
+      "file": "hg",
+      "arguments":
+      [
+        "update",
+        "-R",
+        "%WORKSPACE%\\build\\tools",
+        "--rev",
+        "default"
+      ]
+    },
+    {
+      "file": "cmd",
+      "arguments":
+      [
+        "/c",
+        "mkdir",
+        "%WORKSPACE%\\build\\src"
+      ]
+    },
+    {
+      "file": "hg",
+      "arguments":
+      [
+        "clone",
+        "-U",
+        "c:\\builds\\hg-shared\\mozilla-central",
+        "%WORKSPACE%\\build\\src"
+      ]
+    },
+    {
+      "file": "hg",
+      "arguments":
+      [
+        "pull",
+        "-u",
+        "-R",
+        "%WORKSPACE%\\build\\src",
+        "--rev",
+        "%GECKO_HEAD_REV%",
+        "https://hg.mozilla.org/try"
+      ]
+    },
+    {
+      "file": "hg",
+      "arguments":
+      [
+        "update",
+        "-R",
+        "%WORKSPACE%\\build\\src",
+        "--rev",
+        "%GECKO_HEAD_REV%"
+      ]
+    },
+    {
+      "file": "cp",
+      "arguments":
+      [
+        "C:\\Users\\worker\\workspace\\buildprops.json"
+        ".\\buildprops.json",
+      ]
+    },
+    {
+      "file": "\"%VCINSTALLDIR%\\..\\vcvarsall.bat\"",
+      "arguments": [ ]
+    },
+    {
+      "file": "python",
+      "arguments":
+      [
+        "%WORKSPACE%\\build\\src\\testing\\mozharness\\scripts\\fx_desktop_build.py",
+        "--config",
+        "builds\\releng_base_windows_64_builds.py",
+        "--disable-mock",
+        "--no-setup-mock",
+        "--no-checkout-sources",
+        "--no-clone-tools",
+        "--no-clobber",
+        "--no-update",
+        "--no-upload-files",
+        "--no-sendchange",
+        "--log-level=debug",
+        "--work-dir=%WORKSPACE%\\build",
+        "--no-action=generate-build-stats",
+        "--branch=try",
+        "--build-pool=staging"
+      ]
+    }
+  ]
+}
