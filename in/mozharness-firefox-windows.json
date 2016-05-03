@@ -125,7 +125,7 @@
         "%WORKSPACE%\\build\\tools",
         "--rev",
         "default",
-        "http://hg.mozilla.org/build/tools"
+        "https://hg.mozilla.org/build/tools"
       ]
     },
     {
