@@ -19,9 +19,9 @@
         "/c",
         "if",
         "exist",
-        "x:\\paeon-463ddc9c\\build",
+        "x:\\paeon-db016763\\build",
         "rmdir",
-        "x:\\paeon-463ddc9c\\build",
+        "x:\\paeon-db016763\\build",
         "/s",
         "/q"
       ]
@@ -114,26 +114,6 @@
         "Value": "C:\\Users\\Administrator\\Documents\\Visual Studio 2015"
       },
       {
-        "Name": "ComSpec",
-        "Value": "C:\\Windows\\system32\\cmd.exe"
-      },
-      {
-        "Name": "MOZ_OBJDIR",
-        "Value": "obj-firefox"
-      },
-      {
-        "Name": "PROCESSOR_REVISION",
-        "Value": "3e04"
-      },
-      {
-        "Name": "PROCESSOR_IDENTIFIER",
-        "Value": "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel"
-      },
-      {
-        "Name": "ProgramFiles",
-        "Value": "C:\\Program Files (x86)"
-      },
-      {
         "Name": "ProgramData",
         "Value": "C:\\ProgramData"
       },
@@ -143,7 +123,7 @@
       },
       {
         "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-463ddc9c\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-db016763\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
       },
       {
         "Name": "MSYSTEM",
@@ -158,16 +138,12 @@
         "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
       },
       {
-        "Name": "CommonProgramW6432",
-        "Value": "C:\\Program Files\\Common Files"
-      },
-      {
         "Name": "USERDOMAIN_ROAMINGPROFILE",
         "Value": "WIN-JG6D88MNOC9"
       },
       {
         "Name": "USERNAME",
-        "Value": "paeon-463ddc9c"
+        "Value": "paeon-db016763"
       },
       {
         "Name": "GECKO_HEAD_REV",
@@ -179,7 +155,7 @@
       },
       {
         "Name": "USERPROFILE",
-        "Value": "x:\\paeon-463ddc9c"
+        "Value": "x:\\paeon-db016763"
       },
       {
         "Name": "USERDOMAIN",
@@ -237,11 +213,17 @@
         "Name": "CLIENTNAME",
         "Value": "quadbrat"
       },
-      null,
-      null,
       {
-        "Name": "LIBPATH",
-        "Value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
+        "Name": "INPUTRC",
+        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
+      },
+      {
+        "Name": "APPDATA",
+        "Value": "x:\\paeon-db016763\\AppData\\Roaming"
+      },
+      {
+        "Name": "LIBRARY_PATH",
+        "Value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64;x:\\paeon-db016763\\src\\obj-firefox;x:\\paeon-db016763\\src\\gcc\\lib64;x:\\paeon-db016763\\src\\obj-firefox;x:\\paeon-db016763\\src\\gcc\\lib64;x:\\paeon-db016763\\src\\obj-firefox;x:\\paeon-db016763\\src\\gcc\\lib64"
       },
       {
         "Name": "PROCESSOR_ARCHITEW6432",
@@ -255,17 +237,19 @@
         "Name": "VisualStudioVersion",
         "Value": "14.0"
       },
+      null,
+      null,
       {
-        "Name": "PROCESSOR_ARCHITECTURE",
-        "Value": "x86"
-      },
-      {
-        "Name": "OSTYPE",
-        "Value": "msys"
+        "Name": "CommonProgramW6432",
+        "Value": "C:\\Program Files\\Common Files"
       },
       {
         "Name": "TMP",
-        "Value": "x:\\paeon-463ddc9c\\Temp"
+        "Value": "x:\\paeon-db016763\\Temp"
+      },
+      {
+        "Name": "PROCESSOR_REVISION",
+        "Value": "3e04"
       },
       {
         "Name": "MOZHARNESS_ACTIONS",
@@ -281,7 +265,7 @@
       },
       {
         "Name": "TEMP",
-        "Value": "x:\\paeon-463ddc9c\\Temp"
+        "Value": "x:\\paeon-db016763\\Temp"
       },
       {
         "Name": "CommonProgramFiles",
@@ -301,7 +285,7 @@
       },
       {
         "Name": "WORKSPACE",
-        "Value": "x:\\paeon-463ddc9c"
+        "Value": "x:\\paeon-db016763"
       },
       {
         "Name": "HOSTTYPE",
@@ -325,7 +309,7 @@
       },
       {
         "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-463ddc9c\\AppData\\Local"
+        "Value": "x:\\paeon-db016763\\AppData\\Local"
       },
       {
         "Name": "MOZ_CRASHREPORTER_NO_REPORT",
@@ -348,12 +332,12 @@
         "Value": "C:\\mozilla-build\\moztools-x64"
       },
       {
-        "Name": "COMPUTERNAME",
-        "Value": "WIN-JG6D88MNOC9"
-      },
-      {
         "Name": "PkgDefApplicationConfigFile",
         "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
+      },
+      {
+        "Name": "COMPUTERNAME",
+        "Value": "WIN-JG6D88MNOC9"
       },
       {
         "Name": "MOZILLABUILD",
@@ -365,11 +349,11 @@
       },
       {
         "Name": "HOMEPATH",
-        "Value": "\\paeon-463ddc9c"
+        "Value": "\\paeon-db016763"
       },
       {
         "Name": "HOME",
-        "Value": "x:\\paeon-463ddc9c"
+        "Value": "x:\\paeon-db016763"
       },
       {
         "Name": "FP_NO_HOST_CHECK",
@@ -388,19 +372,31 @@
         "Value": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\"
       },
       {
+        "Name": "ProgramFiles",
+        "Value": "C:\\Program Files (x86)"
+      },
+      {
         "Name": "VSLANG",
         "Value": "1033"
       },
       {
         "Name": "DISTUTILS_USE_SDK",
         "Value": "1"
+      },
+      {
+        "Name": "LIBPATH",
+        "Value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
+      },
+      {
+        "Name": "ComSpec",
+        "Value": "C:\\Windows\\system32\\cmd.exe"
       }
     ],
     "ExitCode": 0,
     "StartTime": "0001-01-01T00:00:00",
     "ExitTime": "0001-01-01T00:00:00",
-    "TotalProcessorTime": "00:00:00.0156250",
+    "TotalProcessorTime": "00:00:00",
     "UserProcessorTime": "00:00:00",
-    "PrivilegedProcessorTime": "00:00:00.0156250"
+    "PrivilegedProcessorTime": "00:00:00"
   }
 ]
