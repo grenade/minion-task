@@ -19,9 +19,9 @@
         "/c",
         "if",
         "exist",
-        "x:\\paeon-d2d0b79f\\build",
+        "x:\\paeon-dbbe8d5b\\build",
         "rmdir",
-        "x:\\paeon-d2d0b79f\\build",
+        "x:\\paeon-dbbe8d5b\\build",
         "/s",
         "/q"
       ]
@@ -151,7 +151,7 @@
       },
       {
         "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-d2d0b79f\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-dbbe8d5b\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
       },
       {
         "Name": "MSYSTEM",
@@ -162,6 +162,10 @@
         "Value": "1"
       },
       {
+        "Name": "PATHEXT",
+        "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+      },
+      {
         "Name": "CommonProgramW6432",
         "Value": "C:\\Program Files\\Common Files"
       },
@@ -170,12 +174,8 @@
         "Value": "WIN-JG6D88MNOC9"
       },
       {
-        "Name": "PATHEXT",
-        "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
-      },
-      {
         "Name": "USERNAME",
-        "Value": "paeon-d2d0b79f"
+        "Value": "paeon-dbbe8d5b"
       },
       {
         "Name": "GECKO_HEAD_REV",
@@ -187,7 +187,7 @@
       },
       {
         "Name": "USERPROFILE",
-        "Value": "x:\\paeon-d2d0b79f"
+        "Value": "x:\\paeon-dbbe8d5b"
       },
       {
         "Name": "USERDOMAIN",
@@ -222,6 +222,10 @@
         "Value": "\\\\WIN-JG6D88MNOC9"
       },
       {
+        "Name": "MACHTYPE",
+        "Value": "i686-pc-msys"
+      },
+      {
         "Name": "SESSIONNAME",
         "Value": "RDP-Tcp#68"
       },
@@ -237,15 +241,21 @@
         "Name": "HOMEDRIVE",
         "Value": "x:"
       },
-      null,
-      null,
       {
-        "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64;x:\\paeon-d2d0b79f\\src\\obj-firefox;x:\\paeon-d2d0b79f\\src\\gcc\\lib64;x:\\paeon-d2d0b79f\\src\\obj-firefox;x:\\paeon-d2d0b79f\\src\\gcc\\lib64;x:\\paeon-d2d0b79f\\src\\obj-firefox;x:\\paeon-d2d0b79f\\src\\gcc\\lib64"
+        "Name": "CLIENTNAME",
+        "Value": "quadbrat"
       },
       {
         "Name": "INPUTRC",
         "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
+      },
+      {
+        "Name": "APPDATA",
+        "Value": "x:\\paeon-dbbe8d5b\\AppData\\Roaming"
+      },
+      {
+        "Name": "LIBRARY_PATH",
+        "Value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64;x:\\paeon-dbbe8d5b\\src\\obj-firefox;x:\\paeon-dbbe8d5b\\src\\gcc\\lib64;x:\\paeon-dbbe8d5b\\src\\obj-firefox;x:\\paeon-dbbe8d5b\\src\\gcc\\lib64;x:\\paeon-dbbe8d5b\\src\\obj-firefox;x:\\paeon-dbbe8d5b\\src\\gcc\\lib64"
       },
       {
         "Name": "PROCESSOR_ARCHITEW6432",
@@ -269,7 +279,7 @@
       },
       {
         "Name": "TMP",
-        "Value": "x:\\paeon-d2d0b79f\\Temp"
+        "Value": "x:\\paeon-dbbe8d5b\\Temp"
       },
       {
         "Name": "MOZHARNESS_ACTIONS",
@@ -285,7 +295,7 @@
       },
       {
         "Name": "TEMP",
-        "Value": "x:\\paeon-d2d0b79f\\Temp"
+        "Value": "x:\\paeon-dbbe8d5b\\Temp"
       },
       {
         "Name": "CommonProgramFiles",
@@ -305,7 +315,7 @@
       },
       {
         "Name": "WORKSPACE",
-        "Value": "x:\\paeon-d2d0b79f"
+        "Value": "x:\\paeon-dbbe8d5b"
       },
       {
         "Name": "HOSTTYPE",
@@ -329,7 +339,7 @@
       },
       {
         "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-d2d0b79f\\AppData\\Local"
+        "Value": "x:\\paeon-dbbe8d5b\\AppData\\Local"
       },
       {
         "Name": "MOZ_CRASHREPORTER_NO_REPORT",
@@ -348,32 +358,23 @@
         "Value": "true"
       },
       {
-        "Name": "MOZ_TOOLS",
-        "Value": "C:\\mozilla-build\\moztools-x64"
+        "Name": "HOMEPATH",
+        "Value": "\\paeon-dbbe8d5b"
       },
       {
         "Name": "COMPUTERNAME",
         "Value": "WIN-JG6D88MNOC9"
       },
-      {
-        "Name": "PkgDefApplicationConfigFile",
-        "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
-      },
-      {
-        "Name": "MOZILLABUILD",
-        "Value": "C:\\mozilla-build"
-      },
-      {
-        "Name": "SystemDrive",
-        "Value": "C:"
-      },
-      {
-        "Name": "HOMEPATH",
-        "Value": "\\paeon-d2d0b79f"
-      },
+      null,
+      null,
+      null,
       {
         "Name": "HOME",
-        "Value": "x:\\paeon-d2d0b79f"
+        "Value": "x:\\paeon-dbbe8d5b"
+      },
+      {
+        "Name": "FP_NO_HOST_CHECK",
+        "Value": "NO"
       },
       {
         "Name": "ProgramFiles(x86)",
@@ -390,10 +391,6 @@
       {
         "Name": "VSLANG",
         "Value": "1033"
-      },
-      {
-        "Name": "MACHTYPE",
-        "Value": "i686-pc-msys"
       }
     ],
     "ExitCode": 0,
