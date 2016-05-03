@@ -19,9 +19,9 @@
         "/c",
         "if",
         "exist",
-        "x:\\paeon-5931057d\\build",
+        "x:\\paeon-658395a0\\build",
         "rmdir",
-        "x:\\paeon-5931057d\\build",
+        "x:\\paeon-658395a0\\build",
         "/s",
         "/q"
       ]
@@ -114,16 +114,16 @@
         "Value": "C:\\Users\\Administrator\\Documents\\Visual Studio 2015"
       },
       {
-        "Name": "DISTUTILS_USE_SDK",
-        "Value": "1"
-      },
-      {
         "Name": "LIBPATH",
         "Value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
       },
       {
         "Name": "ComSpec",
         "Value": "C:\\Windows\\system32\\cmd.exe"
+      },
+      {
+        "Name": "DISTUTILS_USE_SDK",
+        "Value": "1"
       },
       {
         "Name": "MOZ_OBJDIR",
@@ -134,12 +134,12 @@
         "Value": "3e04"
       },
       {
-        "Name": "PROCESSOR_IDENTIFIER",
-        "Value": "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel"
-      },
-      {
         "Name": "ProgramFiles",
         "Value": "C:\\Program Files (x86)"
+      },
+      {
+        "Name": "PROCESSOR_IDENTIFIER",
+        "Value": "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel"
       },
       {
         "Name": "ProgramData",
@@ -151,7 +151,7 @@
       },
       {
         "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-5931057d\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-658395a0\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
       },
       {
         "Name": "MSYSTEM",
@@ -166,20 +166,20 @@
         "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
       },
       {
-        "Name": "CommonProgramW6432",
-        "Value": "C:\\Program Files\\Common Files"
-      },
-      {
         "Name": "USERDOMAIN_ROAMINGPROFILE",
         "Value": "WIN-JG6D88MNOC9"
       },
       {
         "Name": "USERNAME",
-        "Value": "paeon-5931057d"
+        "Value": "paeon-658395a0"
       },
       {
         "Name": "GECKO_HEAD_REV",
         "Value": "a14283391eab25c83976735e057728aeb6fb8457"
+      },
+      {
+        "Name": "CommonProgramW6432",
+        "Value": "C:\\Program Files\\Common Files"
       },
       {
         "Name": "MSSdk",
@@ -187,7 +187,7 @@
       },
       {
         "Name": "USERPROFILE",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "USERDOMAIN",
@@ -238,24 +238,24 @@
         "Value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
       },
       {
+        "Name": "INPUTRC",
+        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
+      },
+      {
         "Name": "HOMEDRIVE",
         "Value": "x:"
+      },
+      {
+        "Name": "APPDATA",
+        "Value": "x:\\paeon-658395a0\\AppData\\Roaming"
       },
       {
         "Name": "CLIENTNAME",
         "Value": "quadbrat"
       },
       {
-        "Name": "INPUTRC",
-        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
-      },
-      {
-        "Name": "APPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Roaming"
-      },
-      {
         "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64"
+        "Value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64"
       },
       {
         "Name": "PROCESSOR_ARCHITEW6432",
@@ -279,7 +279,7 @@
       },
       {
         "Name": "TMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "MOZHARNESS_ACTIONS",
@@ -295,7 +295,7 @@
       },
       {
         "Name": "TEMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "CommonProgramFiles",
@@ -315,7 +315,7 @@
       },
       {
         "Name": "WORKSPACE",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "HOSTTYPE",
@@ -339,23 +339,23 @@
       },
       {
         "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Local"
-      },
-      {
-        "Name": "MOZ_CRASHREPORTER_NO_REPORT",
-        "Value": "1"
-      },
-      {
-        "Name": "ProgramW6432",
-        "Value": "C:\\Program Files"
+        "Value": "x:\\paeon-658395a0\\AppData\\Local"
       },
       {
         "Name": "CommonProgramFiles(x86)",
         "Value": "C:\\Program Files (x86)\\Common Files"
       },
       {
+        "Name": "MOZ_CRASHREPORTER_NO_REPORT",
+        "Value": "1"
+      },
+      {
         "Name": "MSBuildLoadMicrosoftTargetsReadOnly",
         "Value": "true"
+      },
+      {
+        "Name": "ProgramW6432",
+        "Value": "C:\\Program Files"
       },
       {
         "Name": "MOZ_TOOLS",
@@ -370,28 +370,28 @@
         "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
       },
       {
+        "Name": "HOME",
+        "Value": "x:\\paeon-658395a0"
+      },
+      {
         "Name": "MOZILLABUILD",
         "Value": "C:\\mozilla-build"
-      },
-      {
-        "Name": "SystemDrive",
-        "Value": "C:"
-      },
-      {
-        "Name": "HOMEPATH",
-        "Value": "\\paeon-5931057d"
-      },
-      {
-        "Name": "HOME",
-        "Value": "x:\\paeon-5931057d"
       },
       {
         "Name": "FP_NO_HOST_CHECK",
         "Value": "NO"
       },
       {
+        "Name": "SystemDrive",
+        "Value": "C:"
+      },
+      {
         "Name": "ProgramFiles(x86)",
         "Value": "C:\\Program Files (x86)"
+      },
+      {
+        "Name": "HOMEPATH",
+        "Value": "\\paeon-658395a0"
       },
       {
         "Name": "UPLOAD_HOST",
@@ -427,7 +427,625 @@
       "Arguments": [
         "/c",
         "mkdir",
-        "x:\\paeon-5931057d\\build\\tools"
+        "x:\\paeon-658395a0\\build\\tools"
+      ]
+    },
+    "EnvironmentBefore": [
+      {
+        "Name": "VisualStudioDir",
+        "Value": "C:\\Users\\Administrator\\Documents\\Visual Studio 2015"
+      },
+      {
+        "Name": "LIBPATH",
+        "Value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
+      },
+      {
+        "Name": "ComSpec",
+        "Value": "C:\\Windows\\system32\\cmd.exe"
+      },
+      {
+        "Name": "DISTUTILS_USE_SDK",
+        "Value": "1"
+      },
+      {
+        "Name": "MOZ_OBJDIR",
+        "Value": "obj-firefox"
+      },
+      {
+        "Name": "PROCESSOR_REVISION",
+        "Value": "3e04"
+      },
+      {
+        "Name": "ProgramFiles",
+        "Value": "C:\\Program Files (x86)"
+      },
+      {
+        "Name": "PROCESSOR_IDENTIFIER",
+        "Value": "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel"
+      },
+      {
+        "Name": "ProgramData",
+        "Value": "C:\\ProgramData"
+      },
+      {
+        "Name": "SystemRoot",
+        "Value": "C:\\Windows"
+      },
+      {
+        "Name": "Path",
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-658395a0\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+      },
+      {
+        "Name": "MSYSTEM",
+        "Value": "MINGW32"
+      },
+      {
+        "Name": "TINDERBOX_OUTPUT",
+        "Value": "1"
+      },
+      {
+        "Name": "PATHEXT",
+        "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+      },
+      {
+        "Name": "USERDOMAIN_ROAMINGPROFILE",
+        "Value": "WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "USERNAME",
+        "Value": "paeon-658395a0"
+      },
+      {
+        "Name": "GECKO_HEAD_REV",
+        "Value": "a14283391eab25c83976735e057728aeb6fb8457"
+      },
+      {
+        "Name": "CommonProgramW6432",
+        "Value": "C:\\Program Files\\Common Files"
+      },
+      {
+        "Name": "MSSdk",
+        "Value": "1"
+      },
+      {
+        "Name": "USERPROFILE",
+        "Value": "x:\\paeon-658395a0"
+      },
+      {
+        "Name": "USERDOMAIN",
+        "Value": "WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "MAKE_MODE",
+        "Value": "unix"
+      },
+      {
+        "Name": "DXSDK_DIR",
+        "Value": "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)"
+      },
+      {
+        "Name": "VisualStudioEdition",
+        "Value": "Microsoft Visual Studio Community 2015"
+      },
+      {
+        "Name": "windir",
+        "Value": "C:\\Windows"
+      },
+      {
+        "Name": "OS",
+        "Value": "Windows_NT"
+      },
+      {
+        "Name": "TOOLTOOL_CACHE",
+        "Value": "c:\\home\\worker\\tooltool-cache"
+      },
+      {
+        "Name": "LOGONSERVER",
+        "Value": "\\\\WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "MACHTYPE",
+        "Value": "i686-pc-msys"
+      },
+      {
+        "Name": "SESSIONNAME",
+        "Value": "RDP-Tcp#68"
+      },
+      {
+        "Name": "PUBLIC",
+        "Value": "C:\\Users\\Public"
+      },
+      {
+        "Name": "VCINSTALLDIR",
+        "Value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
+      },
+      {
+        "Name": "INPUTRC",
+        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
+      },
+      {
+        "Name": "HOMEDRIVE",
+        "Value": "x:"
+      },
+      {
+        "Name": "APPDATA",
+        "Value": "x:\\paeon-658395a0\\AppData\\Roaming"
+      },
+      {
+        "Name": "CLIENTNAME",
+        "Value": "quadbrat"
+      },
+      {
+        "Name": "LIBRARY_PATH",
+        "Value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64"
+      },
+      {
+        "Name": "PROCESSOR_ARCHITEW6432",
+        "Value": "AMD64"
+      },
+      {
+        "Name": "NUMBER_OF_PROCESSORS",
+        "Value": "8"
+      },
+      {
+        "Name": "VisualStudioVersion",
+        "Value": "14.0"
+      },
+      {
+        "Name": "PROCESSOR_ARCHITECTURE",
+        "Value": "x86"
+      },
+      {
+        "Name": "OSTYPE",
+        "Value": "msys"
+      },
+      {
+        "Name": "TMP",
+        "Value": "x:\\paeon-658395a0\\Temp"
+      },
+      {
+        "Name": "MOZHARNESS_ACTIONS",
+        "Value": "get-secrets build check-test generate-build-stats update"
+      },
+      {
+        "Name": "PROCESSOR_LEVEL",
+        "Value": "6"
+      },
+      {
+        "Name": "SRCSRV_ROOT",
+        "Value": "http://hg.mozilla.org/try"
+      },
+      {
+        "Name": "TEMP",
+        "Value": "x:\\paeon-658395a0\\Temp"
+      },
+      {
+        "Name": "CommonProgramFiles",
+        "Value": "C:\\Program Files (x86)\\Common Files"
+      },
+      {
+        "Name": "ALLUSERSPROFILE",
+        "Value": "C:\\ProgramData"
+      },
+      {
+        "Name": "MOZBUILDDIR",
+        "Value": "C:\\mozilla-build"
+      },
+      {
+        "Name": "PSModulePath",
+        "Value": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\"
+      },
+      {
+        "Name": "WORKSPACE",
+        "Value": "x:\\paeon-658395a0"
+      },
+      {
+        "Name": "HOSTTYPE",
+        "Value": "i686"
+      },
+      {
+        "Name": "ChocolateyInstall",
+        "Value": "C:\\ProgramData\\chocolatey"
+      },
+      {
+        "Name": "UPLOAD_PATH",
+        "Value": "c:\\home\\worker\\public\\build"
+      },
+      {
+        "Name": "NO_CACHE",
+        "Value": "1"
+      },
+      {
+        "Name": "ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO",
+        "Value": "1"
+      },
+      {
+        "Name": "LOCALAPPDATA",
+        "Value": "x:\\paeon-658395a0\\AppData\\Local"
+      },
+      {
+        "Name": "CommonProgramFiles(x86)",
+        "Value": "C:\\Program Files (x86)\\Common Files"
+      },
+      {
+        "Name": "MOZ_CRASHREPORTER_NO_REPORT",
+        "Value": "1"
+      },
+      {
+        "Name": "MSBuildLoadMicrosoftTargetsReadOnly",
+        "Value": "true"
+      },
+      {
+        "Name": "ProgramW6432",
+        "Value": "C:\\Program Files"
+      },
+      {
+        "Name": "MOZ_TOOLS",
+        "Value": "C:\\mozilla-build\\moztools-x64"
+      },
+      {
+        "Name": "COMPUTERNAME",
+        "Value": "WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "PkgDefApplicationConfigFile",
+        "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
+      },
+      {
+        "Name": "HOME",
+        "Value": "x:\\paeon-658395a0"
+      },
+      {
+        "Name": "MOZILLABUILD",
+        "Value": "C:\\mozilla-build"
+      },
+      {
+        "Name": "FP_NO_HOST_CHECK",
+        "Value": "NO"
+      },
+      {
+        "Name": "SystemDrive",
+        "Value": "C:"
+      },
+      {
+        "Name": "ProgramFiles(x86)",
+        "Value": "C:\\Program Files (x86)"
+      },
+      {
+        "Name": "HOMEPATH",
+        "Value": "\\paeon-658395a0"
+      },
+      {
+        "Name": "UPLOAD_HOST",
+        "Value": "localhost"
+      },
+      {
+        "Name": "VS140COMNTOOLS",
+        "Value": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\"
+      },
+      {
+        "Name": "VSLANG",
+        "Value": "1033"
+      }
+    ],
+    "EnvironmentAfter": [
+      {
+        "Name": "VisualStudioDir",
+        "Value": "C:\\Users\\Administrator\\Documents\\Visual Studio 2015"
+      },
+      {
+        "Name": "DISTUTILS_USE_SDK",
+        "Value": "1"
+      },
+      {
+        "Name": "LIBPATH",
+        "Value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
+      },
+      {
+        "Name": "ComSpec",
+        "Value": "C:\\Windows\\system32\\cmd.exe"
+      },
+      {
+        "Name": "MOZ_OBJDIR",
+        "Value": "obj-firefox"
+      },
+      {
+        "Name": "PROCESSOR_REVISION",
+        "Value": "3e04"
+      },
+      {
+        "Name": "PROCESSOR_IDENTIFIER",
+        "Value": "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel"
+      },
+      {
+        "Name": "ProgramFiles",
+        "Value": "C:\\Program Files (x86)"
+      },
+      {
+        "Name": "ProgramData",
+        "Value": "C:\\ProgramData"
+      },
+      {
+        "Name": "SystemRoot",
+        "Value": "C:\\Windows"
+      },
+      {
+        "Name": "MOZHARNESS_ACTIONS",
+        "Value": "get-secrets build check-test generate-build-stats update"
+      },
+      {
+        "Name": "Path",
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-658395a0\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+      },
+      {
+        "Name": "MSYSTEM",
+        "Value": "MINGW32"
+      },
+      {
+        "Name": "TINDERBOX_OUTPUT",
+        "Value": "1"
+      },
+      {
+        "Name": "PATHEXT",
+        "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
+      },
+      {
+        "Name": "CommonProgramW6432",
+        "Value": "C:\\Program Files\\Common Files"
+      },
+      {
+        "Name": "USERDOMAIN_ROAMINGPROFILE",
+        "Value": "WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "USERNAME",
+        "Value": "paeon-658395a0"
+      },
+      {
+        "Name": "GECKO_HEAD_REV",
+        "Value": "a14283391eab25c83976735e057728aeb6fb8457"
+      },
+      {
+        "Name": "LIBRARY_PATH",
+        "Value": "%LIBRARY_PATH%;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64"
+      },
+      {
+        "Name": "USERPROFILE",
+        "Value": "x:\\paeon-658395a0"
+      },
+      {
+        "Name": "USERDOMAIN",
+        "Value": "WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "MAKE_MODE",
+        "Value": "unix"
+      },
+      {
+        "Name": "DXSDK_DIR",
+        "Value": "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)"
+      },
+      {
+        "Name": "VisualStudioEdition",
+        "Value": "Microsoft Visual Studio Community 2015"
+      },
+      {
+        "Name": "windir",
+        "Value": "C:\\Windows"
+      },
+      {
+        "Name": "OS",
+        "Value": "Windows_NT"
+      },
+      {
+        "Name": "TOOLTOOL_CACHE",
+        "Value": "c:\\home\\worker\\tooltool-cache"
+      },
+      {
+        "Name": "LOGONSERVER",
+        "Value": "\\\\WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "MACHTYPE",
+        "Value": "i686-pc-msys"
+      },
+      {
+        "Name": "SESSIONNAME",
+        "Value": "RDP-Tcp#68"
+      },
+      {
+        "Name": "PUBLIC",
+        "Value": "C:\\Users\\Public"
+      },
+      {
+        "Name": "CLIENTNAME",
+        "Value": "quadbrat"
+      },
+      {
+        "Name": "INPUTRC",
+        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
+      },
+      {
+        "Name": "APPDATA",
+        "Value": "x:\\paeon-658395a0\\AppData\\Roaming"
+      },
+      {
+        "Name": "PROCESSOR_ARCHITEW6432",
+        "Value": "AMD64"
+      },
+      {
+        "Name": "NUMBER_OF_PROCESSORS",
+        "Value": "8"
+      },
+      {
+        "Name": "VisualStudioVersion",
+        "Value": "14.0"
+      },
+      {
+        "Name": "PROCESSOR_ARCHITECTURE",
+        "Value": "x86"
+      },
+      {
+        "Name": "TMP",
+        "Value": "x:\\paeon-658395a0\\Temp"
+      },
+      {
+        "Name": "MSSdk",
+        "Value": "1"
+      },
+      {
+        "Name": "PROCESSOR_LEVEL",
+        "Value": "6"
+      },
+      {
+        "Name": "TEMP",
+        "Value": "x:\\paeon-658395a0\\Temp"
+      },
+      {
+        "Name": "SRCSRV_ROOT",
+        "Value": "http://hg.mozilla.org/try"
+      },
+      {
+        "Name": "CommonProgramFiles",
+        "Value": "C:\\Program Files (x86)\\Common Files"
+      },
+      {
+        "Name": "ALLUSERSPROFILE",
+        "Value": "C:\\ProgramData"
+      },
+      {
+        "Name": "MOZBUILDDIR",
+        "Value": "C:\\mozilla-build"
+      },
+      {
+        "Name": "PSModulePath",
+        "Value": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\"
+      },
+      {
+        "Name": "WORKSPACE",
+        "Value": "x:\\paeon-658395a0"
+      },
+      {
+        "Name": "HOSTTYPE",
+        "Value": "i686"
+      },
+      {
+        "Name": "NO_CACHE",
+        "Value": "1"
+      },
+      {
+        "Name": "ChocolateyInstall",
+        "Value": "C:\\ProgramData\\chocolatey"
+      },
+      {
+        "Name": "UPLOAD_PATH",
+        "Value": "c:\\home\\worker\\public\\build"
+      },
+      {
+        "Name": "ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO",
+        "Value": "1"
+      },
+      {
+        "Name": "LOCALAPPDATA",
+        "Value": "x:\\paeon-658395a0\\AppData\\Local"
+      },
+      {
+        "Name": "MOZ_CRASHREPORTER_NO_REPORT",
+        "Value": "1"
+      },
+      {
+        "Name": "ProgramW6432",
+        "Value": "C:\\Program Files"
+      },
+      {
+        "Name": "CommonProgramFiles(x86)",
+        "Value": "C:\\Program Files (x86)\\Common Files"
+      },
+      {
+        "Name": "VCINSTALLDIR",
+        "Value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
+      },
+      {
+        "Name": "MSBuildLoadMicrosoftTargetsReadOnly",
+        "Value": "true"
+      },
+      {
+        "Name": "HOMEDRIVE",
+        "Value": "x:"
+      },
+      {
+        "Name": "MOZ_TOOLS",
+        "Value": "C:\\mozilla-build\\moztools-x64"
+      },
+      {
+        "Name": "COMPUTERNAME",
+        "Value": "WIN-JG6D88MNOC9"
+      },
+      {
+        "Name": "PkgDefApplicationConfigFile",
+        "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
+      },
+      {
+        "Name": "MOZILLABUILD",
+        "Value": "C:\\mozilla-build"
+      },
+      {
+        "Name": "SystemDrive",
+        "Value": "C:"
+      },
+      {
+        "Name": "HOMEPATH",
+        "Value": "\\paeon-658395a0"
+      },
+      {
+        "Name": "HOME",
+        "Value": "x:\\paeon-658395a0"
+      },
+      {
+        "Name": "FP_NO_HOST_CHECK",
+        "Value": "NO"
+      },
+      {
+        "Name": "ProgramFiles(x86)",
+        "Value": "C:\\Program Files (x86)"
+      },
+      {
+        "Name": "UPLOAD_HOST",
+        "Value": "localhost"
+      },
+      {
+        "Name": "VS140COMNTOOLS",
+        "Value": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\"
+      },
+      {
+        "Name": "VSLANG",
+        "Value": "1033"
+      }
+    ],
+    "ExitCode": 0,
+    "StartTime": "0001-01-01T00:00:00",
+    "ExitTime": "0001-01-01T00:00:00",
+    "TotalProcessorTime": "00:00:00.0156250",
+    "UserProcessorTime": "00:00:00",
+    "PrivilegedProcessorTime": "00:00:00.0156250"
+  },
+  {
+    "CommandBefore": {
+      "File": "hg",
+      "Arguments": [
+        "clone",
+        "-U",
+        "c:\\builds\\hg-shared\\build\\tools",
+        "%WORKSPACE%\\build\\tools"
+      ]
+    },
+    "CommandAfter": {
+      "File": "hg",
+      "Arguments": [
+        "clone",
+        "-U",
+        "c:\\builds\\hg-shared\\build\\tools",
+        "x:\\paeon-658395a0\\build\\tools"
       ]
     },
     "EnvironmentBefore": [
@@ -472,8 +1090,12 @@
         "Value": "C:\\Windows"
       },
       {
+        "Name": "MOZHARNESS_ACTIONS",
+        "Value": "get-secrets build check-test generate-build-stats update"
+      },
+      {
         "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-5931057d\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-658395a0\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
       },
       {
         "Name": "MSYSTEM",
@@ -497,19 +1119,19 @@
       },
       {
         "Name": "USERNAME",
-        "Value": "paeon-5931057d"
+        "Value": "paeon-658395a0"
       },
       {
         "Name": "GECKO_HEAD_REV",
         "Value": "a14283391eab25c83976735e057728aeb6fb8457"
       },
       {
-        "Name": "MSSdk",
-        "Value": "1"
+        "Name": "LIBRARY_PATH",
+        "Value": "%LIBRARY_PATH%;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64"
       },
       {
         "Name": "USERPROFILE",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "USERDOMAIN",
@@ -556,14 +1178,6 @@
         "Value": "C:\\Users\\Public"
       },
       {
-        "Name": "VCINSTALLDIR",
-        "Value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
-      },
-      {
-        "Name": "HOMEDRIVE",
-        "Value": "x:"
-      },
-      {
         "Name": "CLIENTNAME",
         "Value": "quadbrat"
       },
@@ -573,11 +1187,7 @@
       },
       {
         "Name": "APPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Roaming"
-      },
-      {
-        "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;%WORKSPACE%\\src\\obj-firefox;%WORKSPACE%\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64"
+        "Value": "x:\\paeon-658395a0\\AppData\\Roaming"
       },
       {
         "Name": "PROCESSOR_ARCHITEW6432",
@@ -596,28 +1206,24 @@
         "Value": "x86"
       },
       {
-        "Name": "OSTYPE",
-        "Value": "msys"
-      },
-      {
         "Name": "TMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
-        "Name": "MOZHARNESS_ACTIONS",
-        "Value": "get-secrets build check-test generate-build-stats update"
+        "Name": "MSSdk",
+        "Value": "1"
       },
       {
         "Name": "PROCESSOR_LEVEL",
         "Value": "6"
       },
       {
-        "Name": "SRCSRV_ROOT",
-        "Value": "http://hg.mozilla.org/try"
+        "Name": "TEMP",
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
-        "Name": "TEMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Name": "SRCSRV_ROOT",
+        "Value": "http://hg.mozilla.org/try"
       },
       {
         "Name": "CommonProgramFiles",
@@ -637,11 +1243,15 @@
       },
       {
         "Name": "WORKSPACE",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "HOSTTYPE",
         "Value": "i686"
+      },
+      {
+        "Name": "NO_CACHE",
+        "Value": "1"
       },
       {
         "Name": "ChocolateyInstall",
@@ -652,16 +1262,12 @@
         "Value": "c:\\home\\worker\\public\\build"
       },
       {
-        "Name": "NO_CACHE",
-        "Value": "1"
-      },
-      {
         "Name": "ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO",
         "Value": "1"
       },
       {
         "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Local"
+        "Value": "x:\\paeon-658395a0\\AppData\\Local"
       },
       {
         "Name": "MOZ_CRASHREPORTER_NO_REPORT",
@@ -676,8 +1282,16 @@
         "Value": "C:\\Program Files (x86)\\Common Files"
       },
       {
+        "Name": "VCINSTALLDIR",
+        "Value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
+      },
+      {
         "Name": "MSBuildLoadMicrosoftTargetsReadOnly",
         "Value": "true"
+      },
+      {
+        "Name": "HOMEDRIVE",
+        "Value": "x:"
       },
       {
         "Name": "MOZ_TOOLS",
@@ -701,11 +1315,11 @@
       },
       {
         "Name": "HOMEPATH",
-        "Value": "\\paeon-5931057d"
+        "Value": "\\paeon-658395a0"
       },
       {
         "Name": "HOME",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "FP_NO_HOST_CHECK",
@@ -770,12 +1384,8 @@
         "Value": "C:\\Windows"
       },
       {
-        "Name": "MOZHARNESS_ACTIONS",
-        "Value": "get-secrets build check-test generate-build-stats update"
-      },
-      {
         "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-5931057d\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-658395a0\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
       },
       {
         "Name": "MSYSTEM",
@@ -799,7 +1409,7 @@
       },
       {
         "Name": "USERNAME",
-        "Value": "paeon-5931057d"
+        "Value": "paeon-658395a0"
       },
       {
         "Name": "GECKO_HEAD_REV",
@@ -807,11 +1417,11 @@
       },
       {
         "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64"
+        "Value": "%LIBRARY_PATH%;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64"
       },
       {
         "Name": "USERPROFILE",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "USERDOMAIN",
@@ -875,55 +1485,51 @@
       },
       {
         "Name": "APPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Roaming"
-      },
-      {
-        "Name": "PROCESSOR_ARCHITEW6432",
-        "Value": "AMD64"
+        "Value": "x:\\paeon-658395a0\\AppData\\Roaming"
       },
       {
         "Name": "NUMBER_OF_PROCESSORS",
         "Value": "8"
       },
       {
-        "Name": "PROCESSOR_ARCHITECTURE",
-        "Value": "x86"
-      },
-      {
         "Name": "VisualStudioVersion",
         "Value": "14.0"
+      },
+      {
+        "Name": "PROCESSOR_ARCHITEW6432",
+        "Value": "AMD64"
+      },
+      {
+        "Name": "PROCESSOR_ARCHITECTURE",
+        "Value": "x86"
       },
       {
         "Name": "OSTYPE",
         "Value": "msys"
       },
       {
-        "Name": "TMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Name": "MOZHARNESS_ACTIONS",
+        "Value": "get-secrets build check-test generate-build-stats update"
       },
       {
-        "Name": "MSSdk",
-        "Value": "1"
+        "Name": "TMP",
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "PROCESSOR_LEVEL",
         "Value": "6"
       },
       {
-        "Name": "SRCSRV_ROOT",
-        "Value": "http://hg.mozilla.org/try"
-      },
-      {
         "Name": "TEMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
-      },
-      {
-        "Name": "ALLUSERSPROFILE",
-        "Value": "C:\\ProgramData"
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "CommonProgramFiles",
         "Value": "C:\\Program Files (x86)\\Common Files"
+      },
+      {
+        "Name": "ALLUSERSPROFILE",
+        "Value": "C:\\ProgramData"
       },
       {
         "Name": "MOZBUILDDIR",
@@ -935,7 +1541,7 @@
       },
       {
         "Name": "WORKSPACE",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "HOSTTYPE",
@@ -959,7 +1565,7 @@
       },
       {
         "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Local"
+        "Value": "x:\\paeon-658395a0\\AppData\\Local"
       },
       {
         "Name": "MOZ_CRASHREPORTER_NO_REPORT",
@@ -980,338 +1586,18 @@
       {
         "Name": "MOZ_TOOLS",
         "Value": "C:\\mozilla-build\\moztools-x64"
-      },
-      {
-        "Name": "COMPUTERNAME",
-        "Value": "WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "PkgDefApplicationConfigFile",
-        "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
-      },
-      {
-        "Name": "MOZILLABUILD",
-        "Value": "C:\\mozilla-build"
-      },
-      {
-        "Name": "SystemDrive",
-        "Value": "C:"
-      },
-      {
-        "Name": "HOMEPATH",
-        "Value": "\\paeon-5931057d"
-      },
-      {
-        "Name": "HOME",
-        "Value": "x:\\paeon-5931057d"
-      },
-      {
-        "Name": "FP_NO_HOST_CHECK",
-        "Value": "NO"
-      },
-      {
-        "Name": "ProgramFiles(x86)",
-        "Value": "C:\\Program Files (x86)"
-      },
-      {
-        "Name": "UPLOAD_HOST",
-        "Value": "localhost"
-      },
-      {
-        "Name": "VS140COMNTOOLS",
-        "Value": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\"
-      },
-      {
-        "Name": "VSLANG",
-        "Value": "1033"
-      }
-    ],
-    "ExitCode": 0,
-    "StartTime": "0001-01-01T00:00:00",
-    "ExitTime": "0001-01-01T00:00:00",
-    "TotalProcessorTime": "00:00:00",
-    "UserProcessorTime": "00:00:00",
-    "PrivilegedProcessorTime": "00:00:00"
-  },
-  {
-    "CommandBefore": {
-      "File": "hg",
-      "Arguments": [
-        "clone",
-        "-U",
-        "c:\\builds\\hg-shared\\build\\tools",
-        "%WORKSPACE%\\build\\tools"
-      ]
-    },
-    "CommandAfter": {
-      "File": "hg",
-      "Arguments": [
-        "clone",
-        "-U",
-        "c:\\builds\\hg-shared\\build\\tools",
-        "x:\\paeon-5931057d\\build\\tools"
-      ]
-    },
-    "EnvironmentBefore": [
-      {
-        "Name": "VisualStudioDir",
-        "Value": "C:\\Users\\Administrator\\Documents\\Visual Studio 2015"
-      },
-      {
-        "Name": "DISTUTILS_USE_SDK",
-        "Value": "1"
-      },
-      {
-        "Name": "LIBPATH",
-        "Value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
-      },
-      {
-        "Name": "ComSpec",
-        "Value": "C:\\Windows\\system32\\cmd.exe"
-      },
-      {
-        "Name": "MOZ_OBJDIR",
-        "Value": "obj-firefox"
-      },
-      {
-        "Name": "PROCESSOR_REVISION",
-        "Value": "3e04"
-      },
-      {
-        "Name": "PROCESSOR_IDENTIFIER",
-        "Value": "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel"
-      },
-      {
-        "Name": "ProgramFiles",
-        "Value": "C:\\Program Files (x86)"
-      },
-      {
-        "Name": "ProgramData",
-        "Value": "C:\\ProgramData"
-      },
-      {
-        "Name": "SystemRoot",
-        "Value": "C:\\Windows"
-      },
-      {
-        "Name": "MOZHARNESS_ACTIONS",
-        "Value": "get-secrets build check-test generate-build-stats update"
-      },
-      {
-        "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-5931057d\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-      },
-      {
-        "Name": "MSYSTEM",
-        "Value": "MINGW32"
-      },
-      {
-        "Name": "TINDERBOX_OUTPUT",
-        "Value": "1"
-      },
-      {
-        "Name": "PATHEXT",
-        "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
-      },
-      {
-        "Name": "CommonProgramW6432",
-        "Value": "C:\\Program Files\\Common Files"
-      },
-      {
-        "Name": "USERDOMAIN_ROAMINGPROFILE",
-        "Value": "WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "USERNAME",
-        "Value": "paeon-5931057d"
-      },
-      {
-        "Name": "GECKO_HEAD_REV",
-        "Value": "a14283391eab25c83976735e057728aeb6fb8457"
-      },
-      {
-        "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64"
-      },
-      {
-        "Name": "USERPROFILE",
-        "Value": "x:\\paeon-5931057d"
-      },
-      {
-        "Name": "USERDOMAIN",
-        "Value": "WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "MAKE_MODE",
-        "Value": "unix"
-      },
-      {
-        "Name": "DXSDK_DIR",
-        "Value": "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)"
-      },
-      {
-        "Name": "VisualStudioEdition",
-        "Value": "Microsoft Visual Studio Community 2015"
-      },
-      {
-        "Name": "windir",
-        "Value": "C:\\Windows"
-      },
-      {
-        "Name": "OS",
-        "Value": "Windows_NT"
-      },
-      {
-        "Name": "TOOLTOOL_CACHE",
-        "Value": "c:\\home\\worker\\tooltool-cache"
-      },
-      {
-        "Name": "LOGONSERVER",
-        "Value": "\\\\WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "MACHTYPE",
-        "Value": "i686-pc-msys"
-      },
-      {
-        "Name": "SESSIONNAME",
-        "Value": "RDP-Tcp#68"
-      },
-      {
-        "Name": "PUBLIC",
-        "Value": "C:\\Users\\Public"
-      },
-      {
-        "Name": "VCINSTALLDIR",
-        "Value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
-      },
-      {
-        "Name": "HOMEDRIVE",
-        "Value": "x:"
-      },
-      {
-        "Name": "CLIENTNAME",
-        "Value": "quadbrat"
-      },
-      {
-        "Name": "INPUTRC",
-        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
-      },
-      {
-        "Name": "APPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Roaming"
-      },
-      {
-        "Name": "PROCESSOR_ARCHITEW6432",
-        "Value": "AMD64"
-      },
-      {
-        "Name": "NUMBER_OF_PROCESSORS",
-        "Value": "8"
-      },
-      {
-        "Name": "PROCESSOR_ARCHITECTURE",
-        "Value": "x86"
-      },
-      {
-        "Name": "VisualStudioVersion",
-        "Value": "14.0"
-      },
-      {
-        "Name": "OSTYPE",
-        "Value": "msys"
-      },
-      {
-        "Name": "TMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
       },
       {
         "Name": "MSSdk",
         "Value": "1"
       },
       {
-        "Name": "PROCESSOR_LEVEL",
-        "Value": "6"
-      },
-      {
-        "Name": "SRCSRV_ROOT",
-        "Value": "http://hg.mozilla.org/try"
-      },
-      {
-        "Name": "TEMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
-      },
-      {
-        "Name": "ALLUSERSPROFILE",
-        "Value": "C:\\ProgramData"
-      },
-      {
-        "Name": "CommonProgramFiles",
-        "Value": "C:\\Program Files (x86)\\Common Files"
-      },
-      {
-        "Name": "MOZBUILDDIR",
-        "Value": "C:\\mozilla-build"
-      },
-      {
-        "Name": "PSModulePath",
-        "Value": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\"
-      },
-      {
-        "Name": "WORKSPACE",
-        "Value": "x:\\paeon-5931057d"
-      },
-      {
-        "Name": "HOSTTYPE",
-        "Value": "i686"
-      },
-      {
-        "Name": "ChocolateyInstall",
-        "Value": "C:\\ProgramData\\chocolatey"
-      },
-      {
-        "Name": "UPLOAD_PATH",
-        "Value": "c:\\home\\worker\\public\\build"
-      },
-      {
-        "Name": "NO_CACHE",
-        "Value": "1"
-      },
-      {
-        "Name": "ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO",
-        "Value": "1"
-      },
-      {
-        "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Local"
-      },
-      {
-        "Name": "MOZ_CRASHREPORTER_NO_REPORT",
-        "Value": "1"
-      },
-      {
-        "Name": "ProgramW6432",
-        "Value": "C:\\Program Files"
-      },
-      {
-        "Name": "CommonProgramFiles(x86)",
-        "Value": "C:\\Program Files (x86)\\Common Files"
-      },
-      {
-        "Name": "MSBuildLoadMicrosoftTargetsReadOnly",
-        "Value": "true"
-      },
-      {
-        "Name": "MOZ_TOOLS",
-        "Value": "C:\\mozilla-build\\moztools-x64"
+        "Name": "PkgDefApplicationConfigFile",
+        "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
       },
       {
         "Name": "COMPUTERNAME",
         "Value": "WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "PkgDefApplicationConfigFile",
-        "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
       },
       {
         "Name": "MOZILLABUILD",
@@ -1322,12 +1608,8 @@
         "Value": "C:"
       },
       {
-        "Name": "HOMEPATH",
-        "Value": "\\paeon-5931057d"
-      },
-      {
         "Name": "HOME",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "FP_NO_HOST_CHECK",
@@ -1348,308 +1630,18 @@
       {
         "Name": "VSLANG",
         "Value": "1033"
-      }
-    ],
-    "EnvironmentAfter": [
-      {
-        "Name": "VisualStudioDir",
-        "Value": "C:\\Users\\Administrator\\Documents\\Visual Studio 2015"
-      },
-      {
-        "Name": "DISTUTILS_USE_SDK",
-        "Value": "1"
-      },
-      {
-        "Name": "LIBPATH",
-        "Value": "c:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319;c:\\Program Files (x86)\\Windows Kits\\8.1\\References\\CommonConfiguration\\Neutral"
-      },
-      {
-        "Name": "ComSpec",
-        "Value": "C:\\Windows\\system32\\cmd.exe"
-      },
-      {
-        "Name": "MOZ_OBJDIR",
-        "Value": "obj-firefox"
-      },
-      {
-        "Name": "PROCESSOR_REVISION",
-        "Value": "3e04"
-      },
-      {
-        "Name": "PROCESSOR_IDENTIFIER",
-        "Value": "Intel64 Family 6 Model 62 Stepping 4, GenuineIntel"
-      },
-      {
-        "Name": "ProgramFiles",
-        "Value": "C:\\Program Files (x86)"
-      },
-      {
-        "Name": "ProgramData",
-        "Value": "C:\\ProgramData"
-      },
-      {
-        "Name": "SystemRoot",
-        "Value": "C:\\Windows"
-      },
-      {
-        "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-5931057d\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
-      },
-      {
-        "Name": "MSYSTEM",
-        "Value": "MINGW32"
-      },
-      {
-        "Name": "TINDERBOX_OUTPUT",
-        "Value": "1"
-      },
-      {
-        "Name": "PATHEXT",
-        "Value": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
-      },
-      {
-        "Name": "CommonProgramW6432",
-        "Value": "C:\\Program Files\\Common Files"
-      },
-      {
-        "Name": "USERDOMAIN_ROAMINGPROFILE",
-        "Value": "WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "USERNAME",
-        "Value": "paeon-5931057d"
-      },
-      {
-        "Name": "GECKO_HEAD_REV",
-        "Value": "a14283391eab25c83976735e057728aeb6fb8457"
-      },
-      {
-        "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64"
-      },
-      {
-        "Name": "USERDOMAIN",
-        "Value": "WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "MAKE_MODE",
-        "Value": "unix"
-      },
-      {
-        "Name": "USERPROFILE",
-        "Value": "x:\\paeon-5931057d"
-      },
-      {
-        "Name": "DXSDK_DIR",
-        "Value": "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)"
-      },
-      {
-        "Name": "VisualStudioEdition",
-        "Value": "Microsoft Visual Studio Community 2015"
-      },
-      {
-        "Name": "windir",
-        "Value": "C:\\Windows"
-      },
-      {
-        "Name": "OS",
-        "Value": "Windows_NT"
-      },
-      {
-        "Name": "TOOLTOOL_CACHE",
-        "Value": "c:\\home\\worker\\tooltool-cache"
-      },
-      {
-        "Name": "LOGONSERVER",
-        "Value": "\\\\WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "MACHTYPE",
-        "Value": "i686-pc-msys"
-      },
-      {
-        "Name": "SESSIONNAME",
-        "Value": "RDP-Tcp#68"
-      },
-      {
-        "Name": "PUBLIC",
-        "Value": "C:\\Users\\Public"
-      },
-      {
-        "Name": "VCINSTALLDIR",
-        "Value": "C:\\Users\\worker\\Visual C++ for Python\\9.0\\VC"
-      },
-      {
-        "Name": "HOMEDRIVE",
-        "Value": "x:"
-      },
-      {
-        "Name": "CLIENTNAME",
-        "Value": "quadbrat"
-      },
-      {
-        "Name": "INPUTRC",
-        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
-      },
-      {
-        "Name": "APPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Roaming"
-      },
-      {
-        "Name": "PROCESSOR_ARCHITEW6432",
-        "Value": "AMD64"
-      },
-      {
-        "Name": "NUMBER_OF_PROCESSORS",
-        "Value": "8"
-      },
-      {
-        "Name": "VisualStudioVersion",
-        "Value": "14.0"
-      },
-      {
-        "Name": "PROCESSOR_ARCHITECTURE",
-        "Value": "x86"
-      },
-      {
-        "Name": "OSTYPE",
-        "Value": "msys"
-      },
-      {
-        "Name": "TMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
-      },
-      {
-        "Name": "MOZHARNESS_ACTIONS",
-        "Value": "get-secrets build check-test generate-build-stats update"
-      },
-      {
-        "Name": "PROCESSOR_LEVEL",
-        "Value": "6"
-      },
-      {
-        "Name": "SRCSRV_ROOT",
-        "Value": "http://hg.mozilla.org/try"
-      },
-      {
-        "Name": "TEMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
-      },
-      {
-        "Name": "CommonProgramFiles",
-        "Value": "C:\\Program Files (x86)\\Common Files"
-      },
-      {
-        "Name": "ALLUSERSPROFILE",
-        "Value": "C:\\ProgramData"
-      },
-      {
-        "Name": "PSModulePath",
-        "Value": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\"
-      },
-      {
-        "Name": "WORKSPACE",
-        "Value": "x:\\paeon-5931057d"
-      },
-      {
-        "Name": "HOSTTYPE",
-        "Value": "i686"
-      },
-      {
-        "Name": "ChocolateyInstall",
-        "Value": "C:\\ProgramData\\chocolatey"
-      },
-      {
-        "Name": "UPLOAD_PATH",
-        "Value": "c:\\home\\worker\\public\\build"
-      },
-      {
-        "Name": "NO_CACHE",
-        "Value": "1"
-      },
-      {
-        "Name": "ENABLE_XAML_DIAGNOSTICS_SOURCE_INFO",
-        "Value": "1"
-      },
-      {
-        "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Local"
-      },
-      {
-        "Name": "MOZ_CRASHREPORTER_NO_REPORT",
-        "Value": "1"
-      },
-      {
-        "Name": "ProgramW6432",
-        "Value": "C:\\Program Files"
-      },
-      {
-        "Name": "CommonProgramFiles(x86)",
-        "Value": "C:\\Program Files (x86)\\Common Files"
-      },
-      {
-        "Name": "MSBuildLoadMicrosoftTargetsReadOnly",
-        "Value": "true"
-      },
-      {
-        "Name": "MSSdk",
-        "Value": "1"
-      },
-      {
-        "Name": "MOZ_TOOLS",
-        "Value": "C:\\mozilla-build\\moztools-x64"
-      },
-      {
-        "Name": "COMPUTERNAME",
-        "Value": "WIN-JG6D88MNOC9"
-      },
-      {
-        "Name": "PkgDefApplicationConfigFile",
-        "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
-      },
-      {
-        "Name": "MOZILLABUILD",
-        "Value": "C:\\mozilla-build"
-      },
-      {
-        "Name": "SystemDrive",
-        "Value": "C:"
-      },
-      {
-        "Name": "HOME",
-        "Value": "x:\\paeon-5931057d"
       },
       {
         "Name": "HOMEPATH",
-        "Value": "\\paeon-5931057d"
-      },
-      {
-        "Name": "FP_NO_HOST_CHECK",
-        "Value": "NO"
-      },
-      {
-        "Name": "ProgramFiles(x86)",
-        "Value": "C:\\Program Files (x86)"
-      },
-      {
-        "Name": "UPLOAD_HOST",
-        "Value": "localhost"
-      },
-      {
-        "Name": "VS140COMNTOOLS",
-        "Value": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\Common7\\Tools\\"
-      },
-      {
-        "Name": "VSLANG",
-        "Value": "1033"
+        "Value": "\\paeon-658395a0"
       }
     ],
     "ExitCode": 0,
     "StartTime": "0001-01-01T00:00:00",
     "ExitTime": "0001-01-01T00:00:00",
-    "TotalProcessorTime": "00:00:01.0468750",
-    "UserProcessorTime": "00:00:00.3906250",
-    "PrivilegedProcessorTime": "00:00:00.6562500"
+    "TotalProcessorTime": "00:00:00.9687500",
+    "UserProcessorTime": "00:00:00.3437500",
+    "PrivilegedProcessorTime": "00:00:00.6250000"
   },
   {
     "CommandBefore": {
@@ -1670,7 +1662,7 @@
         "pull",
         "-u",
         "-R",
-        "x:\\paeon-5931057d\\build\\tools",
+        "x:\\paeon-658395a0\\build\\tools",
         "--rev",
         "default",
         "https://hg.mozilla.org/build/tools"
@@ -1719,7 +1711,7 @@
       },
       {
         "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-5931057d\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-658395a0\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
       },
       {
         "Name": "MSYSTEM",
@@ -1743,7 +1735,7 @@
       },
       {
         "Name": "USERNAME",
-        "Value": "paeon-5931057d"
+        "Value": "paeon-658395a0"
       },
       {
         "Name": "GECKO_HEAD_REV",
@@ -1751,7 +1743,11 @@
       },
       {
         "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64"
+        "Value": "%LIBRARY_PATH%;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64"
+      },
+      {
+        "Name": "USERPROFILE",
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "USERDOMAIN",
@@ -1760,10 +1756,6 @@
       {
         "Name": "MAKE_MODE",
         "Value": "unix"
-      },
-      {
-        "Name": "USERPROFILE",
-        "Value": "x:\\paeon-5931057d"
       },
       {
         "Name": "DXSDK_DIR",
@@ -1819,11 +1811,7 @@
       },
       {
         "Name": "APPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Roaming"
-      },
-      {
-        "Name": "PROCESSOR_ARCHITEW6432",
-        "Value": "AMD64"
+        "Value": "x:\\paeon-658395a0\\AppData\\Roaming"
       },
       {
         "Name": "NUMBER_OF_PROCESSORS",
@@ -1834,6 +1822,10 @@
         "Value": "14.0"
       },
       {
+        "Name": "PROCESSOR_ARCHITEW6432",
+        "Value": "AMD64"
+      },
+      {
         "Name": "PROCESSOR_ARCHITECTURE",
         "Value": "x86"
       },
@@ -1842,24 +1834,20 @@
         "Value": "msys"
       },
       {
-        "Name": "TMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
-      },
-      {
         "Name": "MOZHARNESS_ACTIONS",
         "Value": "get-secrets build check-test generate-build-stats update"
+      },
+      {
+        "Name": "TMP",
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "PROCESSOR_LEVEL",
         "Value": "6"
       },
       {
-        "Name": "SRCSRV_ROOT",
-        "Value": "http://hg.mozilla.org/try"
-      },
-      {
         "Name": "TEMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "CommonProgramFiles",
@@ -1870,12 +1858,16 @@
         "Value": "C:\\ProgramData"
       },
       {
+        "Name": "MOZBUILDDIR",
+        "Value": "C:\\mozilla-build"
+      },
+      {
         "Name": "PSModulePath",
         "Value": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\"
       },
       {
         "Name": "WORKSPACE",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "HOSTTYPE",
@@ -1899,7 +1891,7 @@
       },
       {
         "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Local"
+        "Value": "x:\\paeon-658395a0\\AppData\\Local"
       },
       {
         "Name": "MOZ_CRASHREPORTER_NO_REPORT",
@@ -1918,20 +1910,20 @@
         "Value": "true"
       },
       {
-        "Name": "MSSdk",
-        "Value": "1"
-      },
-      {
         "Name": "MOZ_TOOLS",
         "Value": "C:\\mozilla-build\\moztools-x64"
       },
       {
-        "Name": "COMPUTERNAME",
-        "Value": "WIN-JG6D88MNOC9"
+        "Name": "MSSdk",
+        "Value": "1"
       },
       {
         "Name": "PkgDefApplicationConfigFile",
         "Value": "C:\\Users\\Administrator\\AppData\\Local\\Microsoft\\VisualStudio\\14.0\\devenv.exe.config"
+      },
+      {
+        "Name": "COMPUTERNAME",
+        "Value": "WIN-JG6D88MNOC9"
       },
       {
         "Name": "MOZILLABUILD",
@@ -1943,11 +1935,7 @@
       },
       {
         "Name": "HOME",
-        "Value": "x:\\paeon-5931057d"
-      },
-      {
-        "Name": "HOMEPATH",
-        "Value": "\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "FP_NO_HOST_CHECK",
@@ -1968,6 +1956,10 @@
       {
         "Name": "VSLANG",
         "Value": "1033"
+      },
+      {
+        "Name": "HOMEPATH",
+        "Value": "\\paeon-658395a0"
       }
     ],
     "EnvironmentAfter": [
@@ -2017,7 +2009,7 @@
       },
       {
         "Name": "Path",
-        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-5931057d\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
+        "Value": "c:\\mozilla-build\\msys\\bin;c:\\mozilla-build\\msys\\local\\bin;c:\\mozilla-build\\python;c:\\mozilla-build\\python\\Scripts;c:\\mozilla-build\\wget;c:\\mozilla-build\\yasm;c:\\mozilla-build\\info-zip;c:\\Windows\\system32;c:\\Windows;c:\\Windows\\System32\\Wbem;c:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;c:\\Program Files\\Amazon\\cfn-bootstrap\\;c:\\ProgramData\\chocolatey\\bin;c:\\Program Files\\Mercurial;x:\\paeon-658395a0\\.dnx\\bin;c:\\Program Files\\Microsoft DNX\\Dnvm\\;c:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;c:\\Program Files\\Git\\cmd;c:\\Program Files\\Git\\mingw64\\bin;c:\\Program Files\\Git\\usr\\bin;c:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\"
       },
       {
         "Name": "MSYSTEM",
@@ -2040,20 +2032,16 @@
         "Value": "WIN-JG6D88MNOC9"
       },
       {
-        "Name": "USERNAME",
-        "Value": "paeon-5931057d"
-      },
-      {
         "Name": "GECKO_HEAD_REV",
         "Value": "a14283391eab25c83976735e057728aeb6fb8457"
       },
       {
         "Name": "LIBRARY_PATH",
-        "Value": "%LIBRARY_PATH%;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64;x:\\paeon-5931057d\\src\\obj-firefox;x:\\paeon-5931057d\\src\\gcc\\lib64"
+        "Value": "%LIBRARY_PATH%;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64;x:\\paeon-658395a0\\src\\obj-firefox;x:\\paeon-658395a0\\src\\gcc\\lib64"
       },
       {
-        "Name": "USERPROFILE",
-        "Value": "x:\\paeon-5931057d"
+        "Name": "USERNAME",
+        "Value": "paeon-658395a0"
       },
       {
         "Name": "USERDOMAIN",
@@ -2066,10 +2054,6 @@
       {
         "Name": "DXSDK_DIR",
         "Value": "C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)"
-      },
-      {
-        "Name": "VisualStudioEdition",
-        "Value": "Microsoft Visual Studio Community 2015"
       },
       {
         "Name": "windir",
@@ -2112,16 +2096,16 @@
         "Value": "quadbrat"
       },
       {
-        "Name": "INPUTRC",
-        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
-      },
-      {
         "Name": "APPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Roaming"
+        "Value": "x:\\paeon-658395a0\\AppData\\Roaming"
       },
       {
         "Name": "PROCESSOR_ARCHITEW6432",
         "Value": "AMD64"
+      },
+      {
+        "Name": "INPUTRC",
+        "Value": "C:\\mozilla-build\\msys\\etc\\inputrc"
       },
       {
         "Name": "NUMBER_OF_PROCESSORS",
@@ -2141,7 +2125,7 @@
       },
       {
         "Name": "TMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "VSLANG",
@@ -2152,12 +2136,8 @@
         "Value": "6"
       },
       {
-        "Name": "SRCSRV_ROOT",
-        "Value": "http://hg.mozilla.org/try"
-      },
-      {
         "Name": "TEMP",
-        "Value": "x:\\paeon-5931057d\\Temp"
+        "Value": "x:\\paeon-658395a0\\Temp"
       },
       {
         "Name": "CommonProgramFiles",
@@ -2172,12 +2152,12 @@
         "Value": "C:\\mozilla-build"
       },
       {
-        "Name": "WORKSPACE",
-        "Value": "x:\\paeon-5931057d"
-      },
-      {
         "Name": "PSModulePath",
         "Value": "C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\;C:\\Program Files (x86)\\AWS Tools\\PowerShell\\"
+      },
+      {
+        "Name": "WORKSPACE",
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "HOSTTYPE",
@@ -2201,7 +2181,7 @@
       },
       {
         "Name": "LOCALAPPDATA",
-        "Value": "x:\\paeon-5931057d\\AppData\\Local"
+        "Value": "x:\\paeon-658395a0\\AppData\\Local"
       },
       {
         "Name": "MOZ_CRASHREPORTER_NO_REPORT",
@@ -2220,12 +2200,12 @@
         "Value": "true"
       },
       {
-        "Name": "MSSdk",
-        "Value": "1"
-      },
-      {
         "Name": "MOZ_TOOLS",
         "Value": "C:\\mozilla-build\\moztools-x64"
+      },
+      {
+        "Name": "MSSdk",
+        "Value": "1"
       },
       {
         "Name": "COMPUTERNAME",
@@ -2245,11 +2225,11 @@
       },
       {
         "Name": "HOMEPATH",
-        "Value": "\\paeon-5931057d"
+        "Value": "\\paeon-658395a0"
       },
       {
         "Name": "HOME",
-        "Value": "x:\\paeon-5931057d"
+        "Value": "x:\\paeon-658395a0"
       },
       {
         "Name": "FP_NO_HOST_CHECK",
@@ -2272,7 +2252,7 @@
     "StartTime": "0001-01-01T00:00:00",
     "ExitTime": "0001-01-01T00:00:00",
     "TotalProcessorTime": "00:00:00.2968750",
-    "UserProcessorTime": "00:00:00.2187500",
-    "PrivilegedProcessorTime": "00:00:00.0781250"
+    "UserProcessorTime": "00:00:00.2031250",
+    "PrivilegedProcessorTime": "00:00:00.0937500"
   }
 ]
